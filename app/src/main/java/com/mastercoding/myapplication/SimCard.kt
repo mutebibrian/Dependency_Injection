@@ -3,7 +3,8 @@ package com.mastercoding.myapplication
 import android.util.Log
 import javax.inject.Inject
 
-class SimCard(private val serviceProvider:ServiceProvider) {
+class SimCard @Inject constructor(private val serviceProvider: ServiceProvider) {
+
 
 
     init {

@@ -3,7 +3,7 @@ package com.mastercoding.myapplication
 import android.util.Log
 import javax.inject.Inject
 
-class ServiceProvider{
+class ServiceProvider @Inject constructor(){
 
 
     init {

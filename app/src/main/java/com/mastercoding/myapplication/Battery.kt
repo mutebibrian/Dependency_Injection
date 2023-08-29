@@ -1,10 +1,10 @@
 package com.mastercoding.myapplication
 
 import android.util.Log
+import javax.inject.Inject
 
 
-
-class Battery{
+class Battery @Inject constructor(){
     init {
         Log.i("TAGY", "Battery Created")
     }
